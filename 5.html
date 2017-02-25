@@ -30,7 +30,8 @@ console.log(student.lastName);
 student.lastName="Amir";
 console.log(student.lastName);
 function calc(student){
-	return ((student.points.js+student.points.oipp+student.points.stp)/3);
+	for(var lenght in student.point){
+		console.log(student[lenght]);}
 }
 </script>
 
