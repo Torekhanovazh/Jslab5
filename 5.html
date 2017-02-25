@@ -29,9 +29,10 @@ delete student.lastName;
 console.log(student.lastName); 
 student.lastName="Amir";
 console.log(student.lastName);
-function calc(student){
-	for(var lenght in student.point){
-		console.log(student[lenght]);}
+	var sum=0;
+for (var key in student.points ){
+sum+=student.points[key]}
+return sum/student.points.length[key] ; 
 }
 </script>
 
